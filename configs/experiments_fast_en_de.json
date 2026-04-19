@@ -1,0 +1,16 @@
+{
+  "base_config": "configs/full_tiny_en_de.json",
+  "output_root": "outputs/experiments_fast",
+  "experiments": [
+    {
+      "name": "baseline",
+      "reuse_output_dir": "outputs/baseline_tiny_en_de"
+    },
+    {
+      "name": "learned_pos",
+      "overrides": {
+        "model.position_type": "learned"
+      }
+    }
+  ]
+}

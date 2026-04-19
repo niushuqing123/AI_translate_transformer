@@ -1,0 +1,61 @@
+{
+  "start_time": "2026-04-19T11:41:06+08:00",
+  "environment": {
+    "python_version": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch_version": "2.10.0+cu130",
+    "torch_cuda_version": "13.0",
+    "cuda_available": true,
+    "device_resolved": "cuda",
+    "cudnn_version": 91200,
+    "device_name": "NVIDIA GeForce RTX 2050",
+    "device_total_memory_mb": 4095.56,
+    "device_capability": "8.6"
+  },
+  "dataset": {
+    "train_size": 29000,
+    "valid_size": 1014,
+    "test_size": 1000,
+    "train_batches": 605,
+    "valid_batches": 22,
+    "test_batches": 21,
+    "src_vocab_size": 5977,
+    "tgt_vocab_size": 6000
+  },
+  "artifacts": {
+    "resolved_config": "outputs\\baseline_tiny_en_de\\resolved_config.json",
+    "history_csv": "outputs\\baseline_tiny_en_de\\history.csv",
+    "step_log_csv": "outputs\\baseline_tiny_en_de\\train_steps.csv",
+    "epoch_log_jsonl": "outputs\\baseline_tiny_en_de\\epoch_metrics.jsonl",
+    "train_log": "outputs\\baseline_tiny_en_de\\train.log",
+    "test_metrics": "outputs\\baseline_tiny_en_de\\test_metrics.json",
+    "predictions_test": "outputs\\baseline_tiny_en_de\\predictions_test.txt",
+    "references_test": "outputs\\baseline_tiny_en_de\\references_test.txt",
+    "test_samples": "outputs\\baseline_tiny_en_de\\samples\\test_samples.txt",
+    "plot_paths": [
+      "outputs\\baseline_tiny_en_de\\loss_curve.png",
+      "outputs\\baseline_tiny_en_de\\perplexity_curve.png",
+      "outputs\\baseline_tiny_en_de\\bleu_curve.png",
+      "outputs\\baseline_tiny_en_de\\lr_curve.png",
+      "outputs\\baseline_tiny_en_de\\runtime_memory_curve.png"
+    ]
+  },
+  "end_time": "2026-04-19T11:49:27+08:00",
+  "best_epoch": 12,
+  "best_val_bleu": 40.7667448231104,
+  "total_training_seconds": 494.02557611465454,
+  "test_metrics": {
+    "best_epoch": 12,
+    "best_val_bleu": 40.7667448231104,
+    "test_loss": 1.4010678813571023,
+    "test_perplexity": 4.059532752327262,
+    "test_bleu": 39.35379693083572,
+    "test_chrf": 63.94667410924871,
+    "test_token_accuracy": 45.90071982798916,
+    "test_exact_match": 7.1,
+    "metrics_backend": "sacrebleu 2.6.0",
+    "total_training_seconds": 494.02557611465454,
+    "parameter_count": 2195584,
+    "device": "cuda"
+  }
+}

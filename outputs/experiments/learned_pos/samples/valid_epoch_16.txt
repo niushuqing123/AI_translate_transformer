@@ -1,0 +1,39 @@
+[1]
+SRC: a group of men are loading cotton onto a truck
+REF: eine gruppe von männern lädt auf einen lastwagen
+HYP: eine gruppe von männern lädt zuckerwatte an einem lkw .
+
+[2]
+SRC: a man sleeping in a green room on a couch .
+REF: ein mann schläft in einem grünen raum auf einem sofa .
+HYP: ein mann schläft in einem grünen zimmer auf einem sofa .
+
+[3]
+SRC: a boy wearing headphones sits on a woman's shoulders .
+REF: ein junge mit kopfhörern sitzt auf den schultern einer frau .
+HYP: ein junge mit kopfhörern sitzt auf den schultern einer frau .
+
+[4]
+SRC: two men setting up a blue ice fishing hut on an iced over lake
+REF: zwei männer bauen eine blaue auf einem see auf
+HYP: zwei männer richten eine blaue auf einem see , die ihre arbeit an einem see .
+
+[5]
+SRC: a balding man wearing a red life jacket is sitting in a small boat .
+REF: ein mann mit beginnender glatze , der eine rote rettungsweste trägt , sitzt in einem kleinen boot .
+HYP: ein mann mit glatze , der eine rote schwimmweste trägt , sitzt in einem kleinen boot .
+
+[6]
+SRC: a lady in a red coat , holding a hand bag likely of asian descent , jumping off the ground for a .
+REF: eine frau in einem rotem mantel , die eine vermutlich aus asien handtasche in einem blauen hält , springt für einen schnappschuss in die luft .
+HYP: eine frau in einem roten mantel hält eine , das sich für den boden springt .
+
+[7]
+SRC: a brown dog is running after the black dog .
+REF: ein brauner hund rennt dem schwarzen hund hinterher .
+HYP: ein brauner hund rennt hinter dem schwarzen hund .
+
+[8]
+SRC: a young boy wearing a jersey swings a baseball bat at an incoming pitch .
+REF: ein kleiner junge mit einem schwingt einen baseballschläger in richtung eines ankommenden balls .
+HYP: ein kleiner junge in einem schwingt einen baseballschläger am nächsten schlag .

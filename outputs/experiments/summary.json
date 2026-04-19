@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-04-19T12:14:19+08:00",
+  "plan_path": "configs/experiments_en_de.json",
+  "base_config": "configs/full_tiny_en_de.json",
+  "output_root": "outputs\\experiments",
+  "runner_total_seconds": 1406.647747039795,
+  "comparison_plots": [
+    "outputs\\experiments\\comparison_bleu.png",
+    "outputs\\experiments\\comparison_chrf.png"
+  ],
+  "experiments": [
+    {
+      "name": "baseline",
+      "bleu": 39.35379693083572,
+      "chrf": 63.94667410924871,
+      "token_accuracy": 45.90071982798916,
+      "exact_match": 7.1,
+      "best_epoch": 12,
+      "best_val_bleu": 40.7667448231104,
+      "test_loss": 1.4010678813571023,
+      "train_seconds": 494.02557611465454,
+      "parameter_count": 2195584,
+      "reused": true,
+      "overrides": "",
+      "position_type": "sinusoidal",
+      "label_smoothing": 0.0,
+      "output_dir": "outputs\\baseline_tiny_en_de",
+      "delta_bleu_vs_baseline": 0.0,
+      "delta_chrf_vs_baseline": 0.0,
+      "train_minutes": 8.23375960191091
+    },
+    {
+      "name": "learned_pos",
+      "bleu": 39.13861868254562,
+      "chrf": 63.917951511964965,
+      "token_accuracy": 44.16550441655044,
+      "exact_match": 6.4,
+      "best_epoch": 22,
+      "best_val_bleu": 40.48182201181457,
+      "test_loss": 1.4636931192307245,
+      "train_seconds": 731.1182882785797,
+      "parameter_count": 2228352,
+      "reused": false,
+      "overrides": "{\"model.position_type\": \"learned\"}",
+      "position_type": "learned",
+      "label_smoothing": 0.0,
+      "output_dir": "outputs\\experiments\\learned_pos",
+      "delta_bleu_vs_baseline": -0.21517824829010124,
+      "delta_chrf_vs_baseline": -0.028722597283746154,
+      "train_minutes": 12.185304804642994
+    },
+    {
+      "name": "label_smoothing",
+      "bleu": 39.58480554784858,
+      "chrf": 63.95108758612415,
+      "token_accuracy": 45.711891237545395,
+      "exact_match": 5.8,
+      "best_epoch": 25,
+      "best_val_bleu": 40.82788102636236,
+      "test_loss": 2.495082060496012,
+      "train_seconds": 651.4172053337097,
+      "parameter_count": 2195584,
+      "reused": false,
+      "overrides": "{\"train.label_smoothing\": 0.1}",
+      "position_type": "sinusoidal",
+      "label_smoothing": 0.1,
+      "output_dir": "outputs\\experiments\\label_smoothing",
+      "delta_bleu_vs_baseline": 0.23100861701286135,
+      "delta_chrf_vs_baseline": 0.004413476875441802,
+      "train_minutes": 10.856953422228495
+    }
+  ]
+}

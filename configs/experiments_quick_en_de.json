@@ -1,0 +1,22 @@
+{
+  "base_config": "configs/quick_demo_en_de.json",
+  "output_root": "outputs/experiments_quick",
+  "experiments": [
+    {
+      "name": "baseline",
+      "overrides": {}
+    },
+    {
+      "name": "learned_pos",
+      "overrides": {
+        "model.position_type": "learned"
+      }
+    },
+    {
+      "name": "label_smoothing",
+      "overrides": {
+        "train.label_smoothing": 0.1
+      }
+    }
+  ]
+}

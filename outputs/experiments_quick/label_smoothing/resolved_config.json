@@ -1,0 +1,55 @@
+{
+  "project_name": "mt_transformer_course_project",
+  "seed": 42,
+  "device": "auto",
+  "mixed_precision": true,
+  "data": {
+    "raw_dir": "data/raw/multi30k",
+    "processed_dir": "data/processed/multi30k_en_de_quick",
+    "src_lang": "en",
+    "tgt_lang": "de",
+    "lowercase": true,
+    "max_len": 32,
+    "min_freq": 1,
+    "max_src_vocab": 4000,
+    "max_tgt_vocab": 4000,
+    "train_subset_size": 2000,
+    "valid_subset_size": 256,
+    "test_subset_size": 256
+  },
+  "model": {
+    "d_model": 96,
+    "nhead": 4,
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 2,
+    "dim_feedforward": 192,
+    "dropout": 0.1,
+    "activation": "relu",
+    "position_type": "sinusoidal",
+    "tie_weights": true,
+    "max_position_embeddings": 96
+  },
+  "train": {
+    "epochs": 3,
+    "batch_size": 8,
+    "grad_accum_steps": 2,
+    "warmup_steps": 100,
+    "weight_decay": 0.0001,
+    "clip_grad_norm": 1.0,
+    "label_smoothing": 0.1,
+    "num_workers": 0,
+    "patience": 3,
+    "eval_every": 1,
+    "save_every": 1,
+    "log_interval": 20
+  },
+  "decode": {
+    "max_decode_len": 40
+  },
+  "runtime": {
+    "output_dir": "outputs\\experiments_quick\\label_smoothing",
+    "memory_budget_mb": 900,
+    "device_resolved": "cpu",
+    "parameter_count": 1142016
+  }
+}

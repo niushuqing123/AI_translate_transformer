@@ -1,0 +1,28 @@
+
+===== Running experiment: baseline =====
+[INFO] device = cpu
+[INFO] mixed_precision = False
+[INFO] trainable parameters = 1,142,016
+[EPOCH 01] train_loss=5.3416 train_ppl=208.85 val_loss=4.8419 val_bleu=0.14 val_chrf=12.83 peak_mem=0.0MB time=00:36
+[EPOCH 02] train_loss=4.4561 train_ppl=86.15 val_loss=4.6815 val_bleu=0.33 val_chrf=10.49 peak_mem=0.0MB time=00:33
+[EPOCH 03] train_loss=4.2943 train_ppl=73.28 val_loss=4.6435 val_bleu=0.33 val_chrf=10.62 peak_mem=0.0MB time=00:24
+[TEST] bleu=0.27 chrf=10.45 token_acc=11.60 exact=0.00
+
+===== Running experiment: learned_pos =====
+[INFO] device = cpu
+[INFO] mixed_precision = False
+[INFO] trainable parameters = 1,160,448
+[EPOCH 01] train_loss=5.2427 train_ppl=189.18 val_loss=4.6110 val_bleu=0.50 val_chrf=7.26 peak_mem=0.0MB time=00:16
+[EPOCH 02] train_loss=4.2168 train_ppl=67.81 val_loss=4.3485 val_bleu=1.44 val_chrf=11.05 peak_mem=0.0MB time=00:17
+[EPOCH 03] train_loss=3.9688 train_ppl=52.92 val_loss=4.2591 val_bleu=1.50 val_chrf=14.61 peak_mem=0.0MB time=00:26
+[TEST] bleu=1.26 chrf=15.23 token_acc=13.98 exact=0.00
+
+===== Running experiment: label_smoothing =====
+[INFO] device = cpu
+[INFO] mixed_precision = False
+[INFO] trainable parameters = 1,142,016
+[EPOCH 01] train_loss=5.7614 train_ppl=317.78 val_loss=5.2976 val_bleu=0.11 val_chrf=10.73 peak_mem=0.0MB time=00:28
+[EPOCH 02] train_loss=5.0222 train_ppl=151.75 val_loss=5.1417 val_bleu=1.13 val_chrf=15.96 peak_mem=0.0MB time=00:23
+[EPOCH 03] train_loss=4.9130 train_ppl=136.05 val_loss=5.1029 val_bleu=0.33 val_chrf=10.49 peak_mem=0.0MB time=00:33
+[TEST] bleu=0.93 chrf=15.95 token_acc=12.15 exact=0.00
+[DONE] summary saved to outputs\experiments_quick\summary.csv and outputs\experiments_quick\summary.md

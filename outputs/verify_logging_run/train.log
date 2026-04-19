@@ -1,0 +1,36 @@
+[INFO] device = cuda
+[INFO] mixed_precision = True
+[INFO] gpu = NVIDIA GeForce RTX 2050 (total_mem=4095.6MB, capability=8.6)
+[INFO] trainable parameters = 2,195,584
+[INFO] dataset sizes = train:29000 valid:1014 test:1000
+[INFO] vocab sizes = src:5977 tgt:6000 max_len:40
+[STEP e01 s0001/0605] avg_loss=8.7024 lr=0.000022 grad_norm=1.597 tok/s=1937.8 src_tok=712 tgt_tok=663 mem=63.4/182.0MB
+[STEP e01 s0025/0605] avg_loss=8.4364 lr=0.000287 grad_norm=1.590 tok/s=20511.4 src_tok=744 tgt_tok=651 mem=58.4/208.4MB
+[STEP e01 s0050/0605] avg_loss=7.9267 lr=0.000563 grad_norm=1.511 tok/s=32782.1 src_tok=759 tgt_tok=661 mem=56.2/208.4MB
+[STEP e01 s0075/0605] avg_loss=7.2650 lr=0.000840 grad_norm=0.854 tok/s=30961.8 src_tok=717 tgt_tok=627 mem=55.1/208.4MB
+[STEP e01 s0100/0605] avg_loss=6.7484 lr=0.001116 grad_norm=0.842 tok/s=38827.7 src_tok=697 tgt_tok=623 mem=56.2/208.4MB
+[STEP e01 s0125/0605] avg_loss=6.3741 lr=0.001392 grad_norm=0.625 tok/s=35984.4 src_tok=686 tgt_tok=609 mem=60.6/208.4MB
+[STEP e01 s0150/0605] avg_loss=6.0739 lr=0.001668 grad_norm=0.942 tok/s=24928.3 src_tok=700 tgt_tok=624 mem=55.7/208.4MB
+[STEP e01 s0175/0605] avg_loss=5.8134 lr=0.001945 grad_norm=0.786 tok/s=22664.7 src_tok=683 tgt_tok=622 mem=59.2/216.0MB
+[STEP e01 s0200/0605] avg_loss=5.5908 lr=0.002221 grad_norm=0.883 tok/s=22352.0 src_tok=729 tgt_tok=641 mem=55.7/216.0MB
+[STEP e01 s0225/0605] avg_loss=5.3916 lr=0.002497 grad_norm=1.207 tok/s=29263.4 src_tok=682 tgt_tok=635 mem=56.8/216.0MB
+[STEP e01 s0250/0605] avg_loss=5.2258 lr=0.002773 grad_norm=1.137 tok/s=35383.0 src_tok=729 tgt_tok=656 mem=55.7/216.0MB
+[STEP e01 s0275/0605] avg_loss=5.0763 lr=0.003049 grad_norm=0.941 tok/s=40569.9 src_tok=712 tgt_tok=648 mem=62.8/216.0MB
+[STEP e01 s0300/0605] avg_loss=4.9451 lr=0.003326 grad_norm=1.141 tok/s=37781.5 src_tok=684 tgt_tok=600 mem=54.0/216.0MB
+[STEP e01 s0325/0605] avg_loss=4.8289 lr=0.003602 grad_norm=1.198 tok/s=31407.7 src_tok=672 tgt_tok=595 mem=59.0/216.0MB
+[STEP e01 s0350/0605] avg_loss=4.7244 lr=0.003878 grad_norm=1.054 tok/s=33582.6 src_tok=726 tgt_tok=636 mem=54.6/216.0MB
+[STEP e01 s0375/0605] avg_loss=4.6235 lr=0.004154 grad_norm=1.225 tok/s=30967.9 src_tok=630 tgt_tok=551 mem=54.0/216.0MB
+[STEP e01 s0400/0605] avg_loss=4.5340 lr=0.004414 grad_norm=1.285 tok/s=33071.2 src_tok=720 tgt_tok=668 mem=57.9/216.0MB
+[STEP e01 s0425/0605] avg_loss=4.4553 lr=0.004282 grad_norm=1.262 tok/s=32120.2 src_tok=678 tgt_tok=608 mem=59.2/216.0MB
+[STEP e01 s0450/0605] avg_loss=4.3812 lr=0.004162 grad_norm=1.200 tok/s=20414.6 src_tok=721 tgt_tok=657 mem=55.7/216.0MB
+[STEP e01 s0475/0605] avg_loss=4.3096 lr=0.004051 grad_norm=1.105 tok/s=26970.1 src_tok=774 tgt_tok=696 mem=57.3/217.7MB
+[STEP e01 s0500/0605] avg_loss=4.2440 lr=0.003949 grad_norm=1.300 tok/s=33643.0 src_tok=752 tgt_tok=661 mem=56.8/217.7MB
+[STEP e01 s0525/0605] avg_loss=4.1839 lr=0.003854 grad_norm=1.062 tok/s=21699.7 src_tok=726 tgt_tok=641 mem=57.3/217.7MB
+[STEP e01 s0550/0605] avg_loss=4.1251 lr=0.003765 grad_norm=1.078 tok/s=19864.2 src_tok=708 tgt_tok=663 mem=59.2/217.7MB
+[STEP e01 s0575/0605] avg_loss=4.0702 lr=0.003683 grad_norm=1.230 tok/s=22039.4 src_tok=734 tgt_tok=677 mem=57.3/217.7MB
+[STEP e01 s0600/0605] avg_loss=4.0166 lr=0.003605 grad_norm=1.184 tok/s=26629.0 src_tok=715 tgt_tok=645 mem=55.1/217.7MB
+[STEP e01 s0605/0605] avg_loss=4.0067 lr=0.003591 grad_norm=2.713 tok/s=4814.2 src_tok=113 tgt_tok=94 mem=44.5/217.7MB
+[EPOCH 01] train_loss=4.0067 train_ppl=54.97 val_loss=2.5503 val_bleu=20.57 val_chrf=44.05 val_token_acc=35.49 peak_mem=217.7MB time=00:37 samples=valid_epoch_01.txt
+[INFO] new best checkpoint saved at epoch 1 (val_bleu=20.57)
+[TEST] bleu=20.14 chrf=43.55 token_acc=35.86 exact=1.10
+[DONE] run summary written to outputs\verify_logging_run\run_summary.md

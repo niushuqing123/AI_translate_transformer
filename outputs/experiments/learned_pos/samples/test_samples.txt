@@ -1,0 +1,39 @@
+[1]
+SRC: a man in an orange hat starring at something .
+REF: ein mann mit einem orangefarbenen hut , der etwas .
+HYP: ein mann mit orangefarbener mütze starrt auf etwas .
+
+[2]
+SRC: a boston terrier is running on lush green grass in front of a white fence .
+REF: ein boston terrier läuft über gras vor einem weißen zaun .
+HYP: ein boston terrier rennt auf gras vor einem weißen zaun .
+
+[3]
+SRC: a girl in karate uniform breaking a stick with a front kick .
+REF: ein mädchen in einem karateanzug bricht ein brett mit einem tritt .
+HYP: ein mädchen in karateanzügen malt einen stock vor einen fußtritt .
+
+[4]
+SRC: five people wearing winter jackets and helmets stand in the snow , with in the background .
+REF: fünf leute in winterjacken und mit helmen stehen im schnee mit im hintergrund .
+HYP: fünf personen in und mit helmen stehen im schnee , im hintergrund sind bäume zu sehen .
+
+[5]
+SRC: people are fixing the roof of a house .
+REF: leute reparieren das dach eines hauses .
+HYP: menschen reparieren das dach eines hauses .
+
+[6]
+SRC: a man in light colored clothing photographs a group of men wearing dark suits and hats standing around a woman dressed in a gown .
+REF: ein hell gekleideter mann fotografiert eine gruppe von männern in dunklen anzügen und mit hüten , die um eine frau in einem kleid herum stehen .
+HYP: ein mann in heller kleidung fotografiert eine gruppe von männern in dunklen anzügen und hüten stehen in einer .
+
+[7]
+SRC: a group of people standing in front of an igloo .
+REF: eine gruppe von menschen steht vor einem .
+HYP: eine gruppe von menschen steht vor einem .
+
+[8]
+SRC: a boy in a red uniform is attempting to avoid getting out at home plate , while the catcher in the blue uniform is attempting to catch him .
+REF: ein junge in einem roten trikot versucht , die home base zu erreichen , während der im blauen trikot versucht , ihn zu fangen .
+HYP: ein junge in rotem trikot versucht , einen fänger zu gelangen , während der fänger im blauen trikot zu fangen .

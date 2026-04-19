@@ -1,0 +1,55 @@
+{
+  "project_name": "mt_transformer_course_project",
+  "seed": 42,
+  "device": "auto",
+  "mixed_precision": true,
+  "data": {
+    "raw_dir": "data/raw/multi30k",
+    "processed_dir": "data/processed/multi30k_en_de",
+    "src_lang": "en",
+    "tgt_lang": "de",
+    "lowercase": true,
+    "max_len": 40,
+    "min_freq": 2,
+    "max_src_vocab": 6000,
+    "max_tgt_vocab": 6000,
+    "train_subset_size": null,
+    "valid_subset_size": null,
+    "test_subset_size": null
+  },
+  "model": {
+    "d_model": 128,
+    "nhead": 4,
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 2,
+    "dim_feedforward": 256,
+    "dropout": 0.1,
+    "activation": "relu",
+    "position_type": "sinusoidal",
+    "tie_weights": true,
+    "max_position_embeddings": 128
+  },
+  "train": {
+    "epochs": 1,
+    "batch_size": 16,
+    "grad_accum_steps": 2,
+    "warmup_steps": 400,
+    "weight_decay": 0.0001,
+    "clip_grad_norm": 1.0,
+    "label_smoothing": 0.0,
+    "num_workers": 0,
+    "patience": 99,
+    "eval_every": 1,
+    "save_every": 1,
+    "log_interval": 50
+  },
+  "decode": {
+    "max_decode_len": 50
+  },
+  "runtime": {
+    "output_dir": "outputs/bench_full_bs16_ga2_gpu",
+    "memory_budget_mb": 900,
+    "device_resolved": "cuda",
+    "parameter_count": 2195584
+  }
+}

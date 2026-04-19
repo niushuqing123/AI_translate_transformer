@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Raw and processed datasets are regenerated locally.
+data/raw/**
+!data/raw/
+!data/raw/README.md
+!data/raw/multi30k/
+!data/raw/multi30k/README.md
+
+data/processed/**
+!data/processed/
+!data/processed/README.md
+!data/processed/multi30k_en_de/
+!data/processed/multi30k_en_de/README.md
+!data/processed/multi30k_en_de_quick/
+!data/processed/multi30k_en_de_quick/README.md
+
+# Model weights and image artifacts stay out of the repo.
+*.pt
+*.gz
+*.png
+outputs/**/checkpoints/**
+outputs/**/runner_stdout.log
+outputs/**/runner_stderr.log

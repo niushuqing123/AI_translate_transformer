@@ -1,0 +1,9 @@
+{
+  "test_loss": 1.4010678813571023,
+  "test_perplexity": 4.059532752327262,
+  "test_bleu": 39.35379693083572,
+  "test_chrf": 63.94667410924871,
+  "test_token_accuracy": 45.90071982798916,
+  "test_exact_match": 7.1,
+  "metrics_backend": "sacrebleu 2.6.0"
+}

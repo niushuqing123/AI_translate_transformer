@@ -1,0 +1,14 @@
+{
+  "best_epoch": 25,
+  "best_val_bleu": 40.82788102636236,
+  "test_loss": 2.495082060496012,
+  "test_perplexity": 12.122728274869045,
+  "test_bleu": 39.58480554784858,
+  "test_chrf": 63.95108758612415,
+  "test_token_accuracy": 45.711891237545395,
+  "test_exact_match": 5.8,
+  "metrics_backend": "sacrebleu 2.6.0",
+  "total_training_seconds": 651.4172053337097,
+  "parameter_count": 2195584,
+  "device": "cuda"
+}

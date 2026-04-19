@@ -1,0 +1,12 @@
+SRC: a man is riding a bicycle on the street .
+TGT: ein mann fährt auf der straße fahrrad.
+------------------------------------------------------------
+SRC: two children are playing in the park .
+TGT: zwei kinder spielen im park.
+------------------------------------------------------------
+SRC: a dog is running through the snow .
+TGT: ein hund rennt durch den schnee.
+------------------------------------------------------------
+SRC: a woman is standing near the train .
+TGT: eine frau steht in der nähe des.
+------------------------------------------------------------

@@ -1,0 +1,14 @@
+{
+  "best_epoch": 1,
+  "best_val_bleu": 19.347913108262368,
+  "test_loss": 2.550952748298645,
+  "test_perplexity": 12.819311543540792,
+  "test_bleu": 19.69018114554506,
+  "test_chrf": 42.98031757032575,
+  "test_token_accuracy": 35.1537591278412,
+  "test_exact_match": 0.9,
+  "metrics_backend": "sacrebleu 2.6.0",
+  "total_training_seconds": 663.7255656719208,
+  "parameter_count": 2195584,
+  "device": "cpu"
+}

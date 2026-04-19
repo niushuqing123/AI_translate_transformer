@@ -1,0 +1,4 @@
+name,bleu,chrf,token_accuracy,exact_match,best_epoch,parameter_count,output_dir
+baseline,0.26989938264256846,10.452475788221191,11.600279524807826,0.0,3,1142016,outputs\experiments_quick\baseline
+learned_pos,1.2633633747641904,15.227763199408962,13.976377952755906,0.0,3,1160448,outputs\experiments_quick\learned_pos
+label_smoothing,0.9305870588037268,15.951975799804652,12.154696132596685,0.0,2,1142016,outputs\experiments_quick\label_smoothing
